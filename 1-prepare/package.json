@@ -1,0 +1,17 @@
+{
+  "name": "babeljintpoc",
+  "version": "1.0.0",
+  "description": "Run `npm run build` to prepare @babel/parser for Jint by downleveling it to ES5 and bundling to a single ES module.",
+  "type": "module",
+  "scripts": {
+    "build": "webpack",
+    "test": "node test.js"
+  },
+  "devDependencies": {
+    "@babel/parser": "^7.26.5",
+    "@babel/preset-env": "^7.26.0",
+    "babel-loader": "^9.2.1",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1"
+  }
+}
