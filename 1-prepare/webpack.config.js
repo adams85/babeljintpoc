@@ -13,17 +13,17 @@ export default {
   experiments: {
     outputModule: true,
   },
-  module: {
-    rules: [
-      {
-        test: /\.[c|m]?js$/,
-        use: [{
-          loader: "babel-loader",
-          options: {
-            "presets": ["@babel/preset-env"],
-          },
-        }],
-      },
-    ],
-  },
+  // module: {
+  //   rules: [
+  //     {
+  //       test: /\.[c|m]?js$/,
+  //       use: [{
+  //         loader: "babel-loader",
+  //         options: {
+  //           "presets": ["@babel/preset-env"],
+  //         },
+  //       }],
+  //     },
+  //   ],
+  // },
 };
